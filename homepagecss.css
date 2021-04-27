@@ -1,0 +1,65 @@
+* {
+  font-family: "Red Hat Display", sans-serif;
+}
+body {
+  background: rgba(232, 239, 243, 1) no-repeat;
+  background-size: 100%;
+}
+#homepage {
+  width: 100%;
+  max-width: 1400px;
+}
+.goal {
+  width: 100%;
+}
+.our-goal {
+  margin-top: 200px;
+  width: 30%;
+  margin-left: 100px;
+}
+.our-goal button {
+  margin-left: 100px;
+}
+nav {
+  background: rgba(190, 206, 218, 1);
+  margin-top: 0;
+}
+.bank {
+  margin-bottom: 10px;
+  font-size: larger;
+  font-weight: bold;
+}
+.home {
+  margin-top: 10px;
+}
+.home a {
+  padding: 10px;
+  text-decoration: none;
+}
+nav span img {
+  width: 30px;
+  height: auto;
+  margin-top: 20px;
+}
+.prof {
+  margin-top: 10px;
+}
+.hompg img {
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  body {
+    background: rgba(232, 239, 243, 1), url(hompg.png);
+    background-size: 50%, 50%;
+    background-position: left, right;
+    object-fit: contain;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .goal {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,28 @@
+* {
+  font-family: "Red Hat Display", sans-serif;
+}
+body {
+  background: rgba(232, 239, 243, 1) no-repeat;
+  background-size: 100%;
+}
+.account {
+  text-align: center;
+}
+.input1 {
+  margin-left: 23px;
+}
+.input2 {
+  margin-left: 32px;
+}
+.input3 {
+  margin-left: 40px;
+}
+.input4 {
+  margin-left: 2px;
+}
+.input5 {
+  margin-left: 6px;
+}
+#input6 {
+  margin-left: 10px;
+}

@@ -1,0 +1,91 @@
+* {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  background: rgba(232, 239, 243, 1) no-repeat;
+  background-size: 100%;
+  /* background-position: left, right;
+  object-fit: contain;
+  background-repeat: no-repeat, no-repeat; */
+}
+.body {
+  width: 100%;
+  max-width: 1400px;
+  text-align: center;
+  height: 100%;
+  max-height: 800px;
+  border-radius: 3%;
+  border-style: inherit;
+}
+
+nav li {
+  list-style-type: none;
+}
+.form {
+  color: #333;
+}
+/* .login {
+  height: 500px;
+}
+.welcome {
+  top: 50%;
+} */
+/* .form {
+  text-align: left;
+} */
+.welcome {
+  text-align: center;
+}
+
+/* @media screen and (min-width: 768px) { */
+  /* .body {
+    background: white, rgba(232, 239, 243, 1);
+    background-size: 50%, 50%;
+    background-position: left, right;
+    object-fit: contain;
+    background-repeat: no-repeat, no-repeat;
+  } */
+  .login {
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    margin-top: 5%;
+    max-width: 900px;
+    padding-left: 200px;
+  }
+  .form {
+    background: white no-repeat;
+    justify-content: center;
+    width: 40%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+  .welcome {
+    justify-content: center;
+    padding-top: 160px;
+    background: url(bg8.jpg) no-repeat;
+    background-position: center;
+    width: 60%;
+    color: white;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+
+  nav li {
+    padding-right: 70%;
+    padding-top: 30px;
+  }
+  .remember {
+    width: 180;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+  }
+  .sign {
+    padding-top: 20%;
+  }
+  .password {
+    padding-top: 10px;
+  }
+}
