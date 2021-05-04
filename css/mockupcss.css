@@ -9,6 +9,7 @@ body {
   object-fit: contain;
   background-repeat: no-repeat, no-repeat; */
 }
+
 .body {
   width: 100%;
   max-width: 1400px;
@@ -18,7 +19,6 @@ body {
   border-radius: 3%;
   border-style: inherit;
 }
-
 nav li {
   list-style-type: none;
 }
@@ -38,7 +38,7 @@ nav li {
   text-align: center;
 }
 
-/* @media screen and (min-width: 768px) { */
+@media screen and (min-width: 768px) {
   /* .body {
     background: white, rgba(232, 239, 243, 1);
     background-size: 50%, 50%;
@@ -46,13 +46,17 @@ nav li {
     object-fit: contain;
     background-repeat: no-repeat, no-repeat;
   } */
+
+  .body {
+    display: flex;
+    justify-content: center;
+  }
   .login {
     display: flex;
     justify-content: center;
-    /* flex-wrap: wrap; */
     margin-top: 5%;
-    max-width: 900px;
-    padding-left: 200px;
+    width: 900px;
+    text-align: center;
   }
   .form {
     background: white no-repeat;
@@ -62,9 +66,11 @@ nav li {
     border-bottom-left-radius: 30px;
   }
   .welcome {
+    text-align: left;
     justify-content: center;
     padding-top: 160px;
-    background: url(bg8.jpg) no-repeat;
+    padding-left: 40px;
+    background: url(../images/bg8.jpg) no-repeat;
     background-position: center;
     width: 60%;
     color: white;
@@ -73,7 +79,7 @@ nav li {
   }
 
   nav li {
-    padding-right: 70%;
+    padding-right: 62%;
     padding-top: 30px;
   }
   .remember {

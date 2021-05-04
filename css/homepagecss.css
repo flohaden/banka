@@ -2,8 +2,7 @@
   font-family: "Red Hat Display", sans-serif;
 }
 body {
-  background: rgba(232, 239, 243, 1) no-repeat;
-  background-size: 100%;
+  background: rgba(18, 125, 203, 1) no-repeat;
 }
 #homepage {
   width: 100%;
@@ -13,13 +12,14 @@ body {
   width: 100%;
 }
 .our-goal {
+  align-content: center;
   margin-top: 200px;
   width: 30%;
-  margin-left: 100px;
+  padding-left: 100px;
 }
-.our-goal button {
-  margin-left: 100px;
-}
+/* .our-goal button {
+  justify-items: center;
+} */
 nav {
   background: rgba(190, 206, 218, 1);
   margin-top: 0;
@@ -48,12 +48,13 @@ nav span img {
   margin-top: 20px;
 }
 @media screen and (min-width: 768px) {
-  body {
-    background: rgba(232, 239, 243, 1), url(hompg.png);
+  /* .body {
+    background: rgb(102, 138, 161), rgb(163, 6, 6);
     background-size: 50%, 50%;
-    background-position: left, right;
+    background-position: left top, right bottom;
     object-fit: contain;
-  }
+    background-repeat: no-repeat, no-repeat;
+  } */
   nav {
     display: flex;
     justify-content: space-between;
