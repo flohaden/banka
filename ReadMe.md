@@ -76,36 +76,36 @@ To make this project publicly accessible, you can deploy a static instance by ru
 ## REPO STRUCTURE
 
 /
-├─ src/
-│ ├─ Index/ # Homepage
-│ │ ├─ Pages/ # HTML files
-│ │ ├─ images/ # images (used in component examples)
-│ │ ├─ scripts/ # JavaScript files
-│ │ ├─ CSS/ # CSS files
-│ │ └─ icons/ # icons and logos
-│ │
-│ ├─ components/ # Components
-│ │ ├─ \_partials/ # …that render component previews
-│ │ ├─ common/ # …that may appear anywhere
-│ │ ├─ global/ # …that appear on every page
-│ │ ├─ layouts/ # …that govern macro layout
-│ │ ├─ scopes/ # …that style undecorated markup
-│ │ ├─ templates/ # …that combine components to render page types
-│ │ └─ utilities/ # …that have a single purpose/role
-│ │
-│ ├─ docs/ # Documentation
-│ ├─ \_partials/ # Partials for rendering documentation
-│ └─ … # Documentation files
-│
-├─ tmp/ # Files required for dynamic builds (ignored by Git)
-├─ www/ # Public build (ignored by Git)
-│
-├─ .editorconfig # Code style definitions
-├─ .gitignore # List of files and folders not tracked by Git
-├─ .eslintrc # Linting preferences for JavasScript
-├─ LICENSE # License information for this project
-├─ package.json # Project manifest
-└─ README.md # This file
+| ├─ src/
+| │ ├─ Index/ # Homepage
+| │ │ ├─ Pages/ # HTML files
+| │ │ ├─ images/ # images (used in component examples)
+| │ │ ├─ scripts/ # JavaScript files
+| │ │ ├─ CSS/ # CSS files
+| │ │ └─ icons/ # icons and logos
+| │ │
+| │ ├─ components/ # Components
+| │ │ ├─ \_partials/ # …that render component previews
+| │ │ ├─ common/ # …that may appear anywhere
+| │ │ ├─ global/ # …that appear on every page
+| │ │ ├─ layouts/ # …that govern macro layout
+| │ │ ├─ scopes/ # …that style undecorated markup
+| │ │ ├─ templates/ # …that combine components to render page types
+| │ │ └─ utilities/ # …that have a single purpose/role
+| │ │
+| │ ├─ docs/ # Documentation
+| │ ├─ \_partials/ # Partials for rendering documentation
+| │ └─ … # Documentation files
+| │
+| ├─ tmp/ # Files required for dynamic builds (ignored by Git)
+| ├─ www/ # Public build (ignored by Git)
+| │
+| ├─ .editorconfig # Code style definitions
+| ├─ .gitignore # List of files and folders not tracked by Git
+| ├─ .eslintrc # Linting preferences for JavasScript
+| ├─ LICENSE # License information for this project
+| ├─ package.json # Project manifest
+| └─ README.md # This file
 
 ## CONTACT
 
