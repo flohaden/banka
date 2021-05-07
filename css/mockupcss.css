@@ -4,10 +4,7 @@
 
 body {
   background: white;
-  background-size: 100%;
-  /* background-position: left, right;
-  object-fit: contain;
-  background-repeat: no-repeat, no-repeat; */
+  margin: 0;
 }
 .login {
   text-align: center;
@@ -15,13 +12,16 @@ body {
 .body {
   width: 100%;
   max-width: 1400px;
-  border-style: inherit;
 }
 nav li {
   list-style-type: none;
 }
 .form {
   color: #333;
+}
+.login {
+  height: 400px;
+  width: 100%;
 }
 /* .login {
   height: 500px;
