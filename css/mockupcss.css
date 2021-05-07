@@ -9,7 +9,9 @@ body {
   object-fit: contain;
   background-repeat: no-repeat, no-repeat; */
 }
-
+.login {
+  text-align: center;
+}
 .body {
   width: 100%;
   max-width: 1400px;
