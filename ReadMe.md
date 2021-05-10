@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Table of Contents:
 About The Project
 Scope of functionalities
@@ -75,3 +76,8 @@ Acknowledgements:
 -github pages
 -Font Awesome
 -pngitem.com
+=======
+Title: Banka
+Introduction: Banka is a banking application that powers banking operations like account creation, customer deposit and withdrawals. This application is meant to support a single bank, where users can signup and create bank accounts online, but must visit the branch to withdraw or deposit money.
+Scope of functionalities: Users can signup, login, create account, view transaction history, and view specific account transaction. Staff can debit user account, credit user account, and view all users' account. Admin can view a specific user account, deactivate user account, delete a specific user account, and create staff accounts.
+>>>>>>> develop
