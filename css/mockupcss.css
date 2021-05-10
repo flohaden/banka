@@ -5,6 +5,8 @@
 body {
   background: white;
   margin: 0;
+  align-items: center;
+  text-align: center;
 }
 .login {
   text-align: center;
@@ -12,6 +14,7 @@ body {
 .body {
   width: 100%;
   max-width: 1400px;
+  text-align: center;
 }
 nav li {
   list-style-type: none;
@@ -39,6 +42,7 @@ nav {
 .remember {
   padding-bottom: 15px;
 }
+
 @media screen and (min-width: 768px) {
   /* .body {
     background: white, rgba(232, 239, 243, 1);
@@ -47,7 +51,9 @@ nav {
     object-fit: contain;
     background-repeat: no-repeat, no-repeat;
   } */
-
+  #bigbang {
+    text-align: center;
+  }
   .body {
     display: flex;
     justify-content: center;
@@ -84,7 +90,6 @@ nav {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
   }
-
   nav li {
     padding-right: 80%;
     padding-top: 30px;
@@ -99,5 +104,10 @@ nav {
   }
   .password {
     padding-top: 10px;
+  }
+}
+@media screen and (max-width: 750px) {
+  body {
+    background: url(../images/bg8.jpg) no-repeat;
   }
 }
