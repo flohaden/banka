@@ -9,20 +9,29 @@ body {
   text-align: center;
 }
 .input1 {
-  margin-left: 23px;
+  padding-left: 23px;
 }
 .input2 {
-  margin-left: 32px;
+  padding-left: 32px;
 }
 .input3 {
-  margin-left: 40px;
+  padding-left: 43px;
 }
 .input4 {
-  margin-left: 2px;
+  padding-left: 2px;
 }
 .input5 {
-  margin-left: 6px;
+  padding-left: 6px;
 }
 #input6 {
-  margin-left: 10px;
+  padding-left: 10px;
+}
+a button {
+  padding: 10px;
+  color: white;
+  background: rgba(18, 125, 203, 1);
+  border-radius: 15px;
+}
+form {
+  font-size: 20px;
 }
