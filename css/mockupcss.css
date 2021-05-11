@@ -37,7 +37,7 @@ nav li {
 }
 nav {
   text-align: center;
-  margin-top: 15px;
+  margin-top: 1%;
 }
 .remember {
   padding-bottom: 15px;
@@ -62,7 +62,7 @@ nav {
     display: flex;
     justify-content: center;
     margin-top: 5%;
-    width: 900px;
+    width: 63%;
     text-align: center;
     box-shadow: 0 0 2px rgb(0, 0, 0, 0.2);
     border-collapse: collapse;
@@ -81,8 +81,8 @@ nav {
   .welcome {
     text-align: left;
     justify-content: center;
-    padding-top: 160px;
-    padding-left: 40px;
+    padding-top: 17%;
+    padding-left: 4%;
     background: url(../images/bg8.jpg) no-repeat;
     background-position: center;
     width: 60%;
@@ -92,7 +92,7 @@ nav {
   }
   nav li {
     padding-right: 80%;
-    padding-top: 30px;
+    padding-top: 2%;
     margin-top: 0px;
   }
   .acct {
@@ -106,7 +106,7 @@ nav {
     padding-top: 10px;
   }
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 760px) {
   body {
     background: url(../images/bg8.jpg) no-repeat;
     color: white;
@@ -116,5 +116,8 @@ nav {
   }
   a {
     color: white;
+  }
+  nav li {
+    margin-top: 8%;
   }
 }
