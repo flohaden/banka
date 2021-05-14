@@ -1,58 +1,64 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Banka</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="./css/mockupcss.css">
+	<link rel="stylesheet" type="text/css" href="./css/general.css">
+	<link rel="stylesheet" type="text/css" href="./css/login.css">
 </head>
+
 <body>
-	<div id="bigbang">
-	<nav>
-		<li><img src="./images/logo4.png" style=width:60px;></a></li>
-	</nav>
-	<div class= "body">
-		<div class= "login">
-			<div class = form>
-				<form class="sign">
-					<div class ="username">
-						<p style=margin-right:57%;font-size:13px;line-height:0;><label for="">Username:</label></p>
-						<input style=width:77%;border-top:0;border-left:0;border-right:0;padding-top:0; type="text" name="text" >
-					</div>
-					
-					<div class = "password">
-						<p style=margin-right:57%;font-size:13px;line-height:0;><label for=""> Password:</label></p>
-						<input style=width:77%;border-top:0;border-left:0;border-right:0; type="textnum" name="password">
-					</div>
-					<br>
-					<div class="remember">
-						<span style=font-size:10px;><input  type="checkbox" checked="checked">Remember me</span>
+	<div class="login flex-center w-full">
+		<nav class="w-full">
+			<div class="container">
+				<img src="./images/logo4.png" style=width:50px;></a>
+			</div>
+		</nav>
 
-						<span><a href="" style=text-decoration:none;font-size:10px;>Forgot password?</a></span>
+		<div class="form-sec flex">
+			<div class="form flex flex-col justify-between">
+
+				<h1>Login</h1>
+
+				<form class="sign w-full">
+					<div class="input-sec">
+						<label for="">Username:</label>
+						<input type="text" name="text" class="input-type">
 					</div>
-					
-					<div  class= "button1">
-						<a href="index.html"><input class="button3" type="submit" value="LOG IN" name="" style=background:rgba(18,125,203,1);border-radius:15px;width:77%;border:none;font-weight:bold;color:white;padding:6px;></a>
+
+					<div class="input-sec">
+						<label for=""> Password:</label>
+						<input type="textnum" name="password" class="input-type">
 					</div>
+
+					<div class="remember flex">
+						<strong><a href="" class="primary-color">Forgot password?</a></strong>
+					</div>
+
+					<button class="btn">
+						Login
+					</button>
 				</form>
-				<br>
-				<br>
-			
-				<p class="acct" style=font-size:12px;>Don't have an account yet? Click <a href="create.html" style=text-decoration:none;>here</a> to create an account</p>
-				<!-- <a href="create.html"><button style=background:rgba(126,31,134,1);border-radius:12px;>Create a new account</button></a> -->
-				
-				
+
+				<p class="acct" style=font-size:12px;>Don't have an account yet? Click <a href="create.html"
+						style=text-decoration:none;>here</a> to create an account</p>
+
+
 			</div>
 
-			<div class = "welcome">
-				<h1>Welcome to Banka!</h1>
-				<p style= font-style:italic;;padding-top:-40px;>The bank of the free!</p>
+			<div class="welcome h-full flex flex-col">
+				<h1 class="text">Welcome to Banka!</h1>
+				<p class="text">The bank of the free!</p>
 			</div>
-		</div>	
-	</div>
+		</div>
+
+
 	</div>
 </body>
+
 </html>

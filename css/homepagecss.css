@@ -1,9 +1,5 @@
-* {
-  font-family: "IBM Plex Mono", monospace;
-}
 body {
   background: #eee;
-  margin: 0;
   background: rgba(18, 125, 203, 1);
 }
 .homepage {
