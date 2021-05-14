@@ -70,6 +70,7 @@
     flex-direction: column-reverse;
     height: auto;
     margin-top: 10%;
+    box-shadow: 0 0 5px 2px rgba(18, 125, 203, 0.4);
   }
   .form-sec .form {
     width: 100%;
@@ -87,12 +88,19 @@
 
   .sign {
     width: 100%;
-    padding: 20px;
+    padding: 20px 0;
+  }
+  .form-sec .welcome h1 {
+    font-size: 1.5em;
+  }
+  .form-sec .welcome p {
+    font-size: 0.8em;
   }
 }
 @media screen and (max-width: 320px) {
   .form-sec {
     margin-top: 20%;
+    box-shadow: 0 0 5px 2px rgba(18, 125, 203, 0.4);
   }
   nav {
     padding: 10px;
@@ -104,6 +112,9 @@
     padding: 10px;
   }
   .form-sec .welcome h1 {
-    font-size: 2em;
+    font-size: 1.5em;
+  }
+  .form-sec .welcome h1 {
+    font-size: 0.8em;
   }
 }
