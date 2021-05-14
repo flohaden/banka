@@ -89,7 +89,6 @@
     width: 100%;
     padding: 20px;
   }
-  
 }
 @media screen and (max-width: 320px) {
   .form-sec {
@@ -105,7 +104,6 @@
     padding: 10px;
   }
   .form-sec .welcome h1 {
-    font-size: 2.0em;
-    }
+    font-size: 2em;
   }
 }
