@@ -65,3 +65,47 @@
 .form-sec .welcome .text {
   color: white;
 }
+@media screen and (max-width: 1000px) {
+  .form-sec {
+    flex-direction: column-reverse;
+    height: auto;
+    margin-top: 10%;
+  }
+  .form-sec .form {
+    width: 100%;
+    padding: 20px;
+    height: auto;
+  }
+  .form-sec .welcome {
+    padding: 20px;
+  }
+  .welcome {
+    padding: 20px;
+    height: auto;
+    width: 100%;
+  }
+
+  .sign {
+    width: 100%;
+    padding: 20px;
+  }
+  
+}
+@media screen and (max-width: 320px) {
+  .form-sec {
+    margin-top: 20%;
+  }
+  nav {
+    padding: 10px;
+  }
+  .form-sec .form {
+    padding: 10px;
+  }
+  .form-sec .welcome {
+    padding: 10px;
+  }
+  .form-sec .welcome h1 {
+    font-size: 2.0em;
+    }
+  }
+}
