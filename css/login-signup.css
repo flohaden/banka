@@ -65,6 +65,9 @@
 .form-sec .welcome .text {
   color: white;
 }
+.form p {
+  font-size: 12px;
+}
 @media screen and (max-width: 1000px) {
   .form-sec {
     flex-direction: column-reverse;
