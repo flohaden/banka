@@ -81,7 +81,7 @@
     height: auto;
   }
   .form-sec .welcome {
-    padding: 20px;
+    padding: 50px 10px 20px;
   }
   .welcome {
     padding: 20px;
@@ -112,7 +112,7 @@
     padding: 10px;
   }
   .form-sec .welcome {
-    padding: 10px;
+    padding: 40px 10px 20px;
   }
   .form-sec .welcome h1 {
     font-size: 1.5em;
