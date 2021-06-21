@@ -16,6 +16,12 @@ nav {
 nav span {
   padding: 10px;
 }
+.navspan {
+  padding: 10px 0 10px 0;
+}
+.dash {
+  padding: 10px 0 10px 0;
+}
 .form-sec {
   padding: 7% 8%;
 }
@@ -24,10 +30,11 @@ nav span {
   font-weight: bolder;
 }
 .form-sec .h1 {
-  padding-left: 12%;
+  padding-left: 8%;
 }
 .form-sec h6 {
   font-size: 20px;
+  padding-top: 22px;
 }
 .form-sec .h2 {
   text-decoration: underline;
@@ -58,6 +65,9 @@ nav span {
 .custom-3 {
   width: 40%;
 }
+.custom-3 h4 {
+  font-weight: bolder;
+}
 .work {
   padding: 10% 8%;
   overflow: hidden;
@@ -81,17 +91,28 @@ nav span {
 .yogo img {
   color: green;
 }
+@media screen and (min-width: 1001px) {
+  .sidebar {
+    display: none;
+  }
+}
 @media screen and (max-width: 1000px) {
   nav {
-    flex-direction: column;
-    text-align: center;
+    /* flex-direction: column; */
+    /* text-align: center; */
     flex-wrap: wrap;
     height: auto;
     padding: 20px;
     margin-right: 10px;
   }
   .navspan {
-    padding: 10px 0 10px 0;
+    display: none;
+  }
+  nav span {
+    display: none;
+  }
+  .sidebar {
+    flex-direction: column;
   }
   .form-sec {
     margin-top: 30px;
@@ -100,31 +121,44 @@ nav span {
     font-size: 2em;
   }
   .form-sec h6 {
-    font-size: 0.5em;
+    font-size: 1em;
   }
 
   .custom-1 {
-    width: 80%;
-    padding-top: 30px;
+    width: 100%;
+    padding-top: 35px;
     font-size: 1em;
+  }
+  .custom-2 {
+    flex-direction: column;
+    width: 100%;
+  }
+  .custom-3 {
+    width: 100%;
+    padding-top: 10px;
   }
   .custom-sec {
     flex-direction: column-reverse;
     height: auto;
+    width: 100%;
   }
   .custom h3 {
     margin-top: 35px;
-    width: 70%;
+    width: 100%;
   }
   .work {
     flex-direction: column-reverse;
-    padding-top: 55px;
+    padding-top: 130px;
   }
   .work-sec {
-    width: 80%;
+    width: 100%;
+  }
+  .work-img {
+    width: 100%;
   }
   .work-sec h1 {
     font-size: 1.3em;
+    padding-top: 30px;
   }
   .footer {
     flex-direction: column-reverse;
