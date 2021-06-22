@@ -67,6 +67,7 @@ nav span {
 }
 .custom-3 h4 {
   font-weight: bolder;
+  margin-bottom: 10px;
 }
 .work {
   padding: 10% 8%;
@@ -74,7 +75,13 @@ nav span {
 }
 .work-sec {
   width: 40%;
+  margin-bottom: 10px;
 }
+
+.work-sec h1 {
+  margin-bottom: 10px;
+}
+
 .work-img {
   width: 50%;
 }
