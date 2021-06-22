@@ -123,24 +123,26 @@ nav span {
   }
 
   .sidenav {
-    display: none;
-    height: 30%;
-    width: 150px;
-    position: absolute;
+    height: 100%;
+    width: 0;
+    position: fixed;
     z-index: 1;
     top: 0;
     right: 0;
     background-color: rgba(190, 206, 218, 1);
+    box-shadow: 0 0 100px 10px #818181;
     overflow-x: hidden;
+    transition: 0.5s;
     padding-top: 60px;
   }
 
   .sidenav a {
-    padding: 4px 8px 4px 20px;
+    padding: 8px 8px 8px 20px;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 20px;
     color: #818181;
     display: block;
+    transition: 0.3s;
   }
   .sidenav a:hover {
     color: #f1f1f1;
