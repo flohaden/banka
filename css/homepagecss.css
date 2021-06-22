@@ -99,7 +99,10 @@ nav span {
   color: green;
 }
 @media screen and (min-width: 1001px) {
-  .sidebar {
+  .sidenav {
+    display: none;
+  }
+  .menu {
     display: none;
   }
 }
@@ -115,12 +118,40 @@ nav span {
   .navspan {
     display: none;
   }
-  nav span {
+  .dash {
     display: none;
   }
-  .sidebar {
-    flex-direction: column;
+
+  .sidenav {
+    display: none;
+    height: 30%;
+    width: 150px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(190, 206, 218, 1);
+    overflow-x: hidden;
+    padding-top: 60px;
   }
+
+  .sidenav a {
+    padding: 4px 8px 4px 20px;
+    text-decoration: none;
+    font-size: 10px;
+    color: #818181;
+    display: block;
+  }
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 30px;
+  }
+
   .form-sec {
     margin-top: 30px;
   }
@@ -130,7 +161,6 @@ nav span {
   .form-sec h6 {
     font-size: 1em;
   }
-
   .custom-1 {
     width: 100%;
     padding-top: 35px;
