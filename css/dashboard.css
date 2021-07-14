@@ -1,0 +1,244 @@
+.auth {
+  height: 100vh;
+  width: auto;
+  padding: 0 0 0 0;
+  overflow: hidden;
+}
+
+body {
+  background: #eee;
+  /* background: rgba(18, 125, 203, 1); */
+  overflow-x: hidden;
+}
+
+.nav {
+  background: whitesmoke;
+  padding: 2% 3% 1% 2%;
+  height: 100vh;
+}
+.navbar {
+  flex-direction: column;
+  padding: 4% 0 3% 0;
+}
+.navbar a {
+  padding-top: 10%;
+}
+.exit {
+  padding-top: 99%;
+}
+.master-sec {
+  width: 20vw;
+  margin: 20% 1.5% 5% 2%;
+  padding: 0.5% 0 5% 0;
+  position: relative;
+  min-height: 50vw;
+  overflow: hidden;
+}
+.containt {
+  background: whitesmoke;
+  border-radius: 20px;
+  position: absolute;
+  width: 100%;
+  /* margin: 5%; */
+  padding: 23% 15% 0 12%;
+  height: 65%;
+}
+.mastercard {
+  background: url(../images/mastercard.jpg) no-repeat;
+  background-size: contain;
+  padding: 35% 4% 40% 4%;
+  /* background-size: 15vw; */
+  overflow: hidden;
+}
+.mastercard p {
+  padding: 1% 0 3% 0;
+  font-size: 1vw;
+}
+.mastercard h5 {
+  font-size: 1.1vw;
+}
+table {
+  width: 90%;
+}
+tbody {
+  padding: 3% 5% 3% 5%;
+}
+tr {
+  padding: 1% 4% 2% 5%;
+}
+td {
+  padding: 0.5% 4% 1% 4%;
+  font-size: 1vw;
+}
+th {
+  font-size: 1vw;
+}
+.transaction {
+  width: 55%;
+  margin: 5% 0 5% 0;
+  padding: 3.7% 1% 5% 1%;
+  overflow: hidden;
+}
+.transact-det {
+  width: 50%;
+  padding: 5% 2% 5% 3%;
+  font-size: 1vw;
+  background: whitesmoke;
+  background-size: cover;
+  border-radius: 15px;
+  margin-bottom: 3%;
+}
+.transact-nam {
+  padding: 1.5% 0 1% 0;
+}
+.transact-bal {
+  padding: 2% 0 1% 0;
+}
+.transact-tab {
+  width: 90%;
+  padding: 3% 0 3% 0;
+  background: whitesmoke;
+  background-size: cover;
+  border-radius: 20px;
+}
+.transact {
+  padding: 0 2.5% 0.5% 2.5%;
+}
+
+td .transact-his {
+  width: 100%;
+  padding: 2% 0 0 0;
+}
+@media screen and (min-width: 1001px) {
+  .screen {
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .auth {
+    display: none;
+  }
+  nav {
+    background: rgba(190, 206, 218, 1);
+    margin-top: 0;
+    padding: 1% 2%;
+    overflow: hidden;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 20px;
+    margin-right: 10px;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(190, 206, 218, 1);
+    box-shadow: 0 0 100px 10px #818181;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 30px;
+  }
+
+  .transact-dett {
+    width: 90%;
+    margin: 15% 2%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-left: 5%;
+  }
+  .transact-contain {
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background: whitesmoke;
+    padding: 5% 0 5% 0;
+    border-radius: 20px;
+    font-size: 2.5vw;
+  }
+  .master-1 {
+    width: 90%;
+    margin: 10% 2%;
+    padding-left: 5%;
+    overflow: hidden;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  .master-secc {
+    width: 100%;
+    background: whitesmoke;
+    border-radius: 20px;
+  }
+  .master-secc h2 {
+    margin-left: 5%;
+    padding: 3% 0 0 33%;
+    font-size: 3vw;
+  }
+  .containt {
+    justify-content: center;
+    padding: 5% 7% 10% 12%;
+    margin: 0;
+    position: relative;
+  }
+  .mastercardd {
+    background: url(../images/mastercard.jpg) no-repeat;
+    background-size: contain;
+    padding: 10% 4% 6% 4%;
+    /* background-size: 15vw; */
+    overflow: hidden;
+    width: 100%;
+  }
+  .mastercardd p {
+    padding: 1% 0 3% 0;
+    font-size: 1.3vw;
+  }
+  .mastercardd h5 {
+    font-size: 1.5vw;
+  }
+  .quick-action {
+    width: 90%;
+    margin: 15% 2%;
+    padding-left: 5%;
+    overflow: hidden;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  .quick-1 {
+    background: whitesmoke;
+    border-radius: 20px;
+  }
+  .quick-2 {
+    padding: 2% 4% 4% 2%;
+  }
+  .quick-4 {
+    padding: 3% 0 3% 0;
+  }
+  .quick-1 h2 {
+    margin-left: 5%;
+    padding: 3% 0 5% 33%;
+    font-size: 4vw;
+  }
+}

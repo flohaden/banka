@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" type="text/css" href="./css/general.css">
+    <link rel="stylesheet" href="./css/dashboard.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="auth w-full flex justify-between justify-center item-center ">
+        <div class= "nav">
+            <div>
+                <img src="./images/logo4.png" alt="" style=width:50px;>
+            </div>
+            <div class="navbar flex">
+                <a href="index.html">Home</a>
+                <a href="">Transfer money</a>
+                <a href="">Transaction history</a>
+                <a href="">Mobile Topup</a>
+                <a href="">Pay Bills</a>
+            </div>
+            <div class="exit"> 
+                <a href="index.html">Exit</a>
+            </div>
+        </div>
+
+        <div class="master-sec">   
+            <div class="containt">  
+                <div class="mastercard">
+                    <h5>7123 2334 4444 5553</h5>
+                    <p>56,000</p>
+                </div>
+                <div class="mastercard">
+                    <h5>7683 3333 2128 3484</h5>
+                    <p>24,000</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="transaction">
+            <div class= "transact-det">
+                <div class="transact-nam">
+                    <h2>Robertson Tells</h2>
+                    <p>Current Account</p>
+                </div>
+                <div class="transact-bal">
+                    <h2>Total Balance</h2>
+                    <p>75,000</p>
+                </div>
+            </div>
+
+            <div class="transact-tab">
+                <div class="transact flex justify-between">
+                    <h2>Transaction History</h2>
+                    <!-- <input type="text" placeholder="Search.."> -->
+                </div>
+                
+                <div class="transact-his">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>No</th>
+                                <th>ID</th>
+                                <th>Transaction type</th>
+                                <th>Amount</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>                 
+                                <td>1</td>
+                                <td>043444</td>
+                                <td>credit</td>
+                                <td>43,000</td>
+                                <td>06-20-21</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>                                    
+                                <td>018238</td>
+                                <td>debit</td>
+                                <td>24,333</td>
+                                <td>06-12-21</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>082937</td>
+                                <td>debit</td>
+                                <td>12,400</td>
+                                <td>06-01-21</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>024578</td>
+                                <td>credit</td>
+                                <td>23,000</td>
+                                <td>05-23-21</td>
+                            </tr>
+                            <tr>                                    
+                                <td>5</td>
+                                <td>098945</td>
+                                <td>debit</td>
+                                <td>20,150</td>
+                                <td>05-09-21</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class= "screen">
+        <nav class="flex w-full justify-between">
+            <div>
+                <img src="./images/logo4.png" alt="" style=width:50px;>
+            </div>
+            <div id="mySidenav"  class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="login.html"><img src="./images/accounticon.png" alt="" style=color:rgba(18,125,203,1);></a>
+                <a href="index.html">Home</a>
+                <a href="#">Transfer money</a>
+                <a href="#">Transaction history</a>
+                <a href="#">Mobile topup</a>
+                <a href="">Pay bills</a>
+            </div>
+            <div class="menu">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+            </div>
+        </nav>
+
+        <div>
+            <div class= "transact-dett">
+                <div class="transact-contain flex">
+                    <div class="transact-namm">
+                        <h2>Robertson Tells</h2>
+                        <p>Current Account</p>
+                    </div>
+                    <div class="transact-ball">
+                        <h2>Total Balance</h2>
+                        <p>75,000</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class= "master-1">
+            <div class="master-secc"> 
+                <h2>My Cards</h2>
+                <div class="containt flex">
+                    <div class="mastercardd">
+                        <h5>7123 2334 4444 5553</h5>
+                        <p>56,000</p>
+                    </div>
+                    <div class="mastercardd">
+                        <h5>7683 3333 2128 3484</h5>
+                        <p>24,000</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="quick-action">
+                <div class="quick-1">
+                    <h2>History</h2>
+                    <div class=" quick-2 flex justify-between">
+                        <div class=" quick-3 flex justify-between">
+                            <img src="./images/Ellipse 4.png" alt="" style= width:50px;height:50px;padding-right:10%;>
+                            <div class="quick-4">
+                                <h4>Robertson Tells</h4>
+                                <p>Credit</p>
+                            </div>
+                        </div>
+                        <div>
+                            $300
+                        </div>
+                    </div>
+                    <div class=" quick-2 flex justify-between">
+                        <div class=" quick-3 flex justify-between">
+                            <img src="./images/Ellipse 5.png" alt="" style= width:50px;height:50px;padding-right:10%;>
+                            <div class="quick-4">
+                                <h4>Elijah Mills</h4>
+                                <p>Debit</p>
+                            </div>
+                        </div>
+                        <div>
+                            $300
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./javascript/index.js"></script>
+</body>
+</html>
