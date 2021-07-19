@@ -59,6 +59,7 @@ body {
 }
 table {
   width: 90%;
+  padding-left: 5%;
 }
 tbody {
   padding: 3% 5% 3% 5%;
@@ -67,7 +68,7 @@ tr {
   padding: 1% 4% 2% 5%;
 }
 td {
-  padding: 0.5% 4% 1% 4%;
+  padding: 0.5% 0% 1% 4%;
   font-size: 1vw;
 }
 th {
@@ -102,12 +103,18 @@ th {
   border-radius: 20px;
 }
 .transact {
-  padding: 0 2.5% 0.5% 2.5%;
+  padding: 0 2.5% 2.5% 4.5%;
 }
 
 td .transact-his {
   width: 100%;
   padding: 2% 0 0 0;
+}
+.alert {
+  padding: 0 0 0 12%;
+}
+.no {
+  padding: 0 0.2% 0 1%;
 }
 @media screen and (min-width: 1001px) {
   .screen {
