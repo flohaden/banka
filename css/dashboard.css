@@ -46,16 +46,16 @@ body {
 .mastercard {
   background: url(../images/mastercard.jpg) no-repeat;
   background-size: contain;
-  padding: 35% 4% 40% 4%;
+  padding: 30% 4% 40% 15%;
   /* background-size: 15vw; */
   overflow: hidden;
 }
 .mastercard p {
-  padding: 1% 0 3% 0;
-  font-size: 1vw;
+  padding: 1% 0 3% 0%;
+  font-size: 1.3vw;
 }
 .mastercard h5 {
-  font-size: 1.1vw;
+  font-size: 1.4vw;
 }
 table {
   width: 90%;
@@ -219,10 +219,10 @@ td .transact-his {
   }
   .mastercardd p {
     padding: 1% 0 3% 0;
-    font-size: 1.3vw;
+    font-size: 1.8vw;
   }
   .mastercardd h5 {
-    font-size: 1.5vw;
+    font-size: 2vw;
   }
   .quick-action {
     width: 90%;
