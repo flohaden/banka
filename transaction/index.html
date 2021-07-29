@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction History</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" type="text/css" href="../css/general.css">
+    <link rel="stylesheet" href="../css/transaction.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="auth w-full">
+        <nav class="flex w-full justify-between">
+            <div>
+                <img src="../images/logo4.png" alt="" style=width:50px;>
+            </div>
+            <div class="navspan">
+                <span><a href="../index.html">Homepage</a></span>
+                <span><a href="">Transfer Money</a></span>
+                <span><a href="">Mobile Topup</a></span>
+                <span><a href="">Pay Bills</a></span>
+            </div>
+            <div id="mySidenav"  class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="../login/index.html"><img src="../images/accounticon.png" alt="" style=color:rgba(18,125,203,1);></a>
+                <a href="#">Services</a>
+                <a href="#">Banking</a>
+                <a href="#">Investment</a>
+                <a href="#">About</a>
+            </div>
+            <div class="menu">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+            </div>
+            <div class="dash">
+                <a href="../dashboard/index.html"><img src="../images/accounticon.png" alt="" style=color:rgba(18,125,203,1);></a>
+            </div>
+        </nav>
+
+        <div id="transaction-history" class="flex">
+            <div class="master-sec">   
+                <div class="containt">  
+                    <div class="mastercard mastercard-1">
+                    </div> 
+                    <div class="mastercard mastercard-2">
+                    </div>
+                </div>
+            </div>
+
+            <div class="transact-his">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>ID</th>
+                            <th>Transaction type</th>
+                            <th>Amount</th>
+                            <th>Transaction Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                      
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="../javascript/transaction.js"></script>
+</body>
+</html>

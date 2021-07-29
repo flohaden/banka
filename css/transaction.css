@@ -1,0 +1,150 @@
+.auth {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  background: #eee;
+  overflow-x: hidden;
+}
+
+nav {
+  background: rgba(190, 206, 218, 1);
+  margin-top: 0;
+  padding: 1% 2%;
+  overflow: hidden;
+}
+nav span {
+  padding: 10px;
+}
+.navspan {
+  padding: 10px 0 10px 0;
+}
+.dash {
+  padding: 10px 0 10px 0;
+}
+
+@media screen and (min-width: 1001px) {
+  .sidenav {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  nav {
+    /* flex-direction: column; */
+    /* text-align: center; */
+    flex-wrap: wrap;
+    height: auto;
+    padding: 20px;
+    margin-right: 10px;
+  }
+  .navspan {
+    display: none;
+  }
+  .dash {
+    display: none;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(190, 206, 218, 1);
+    box-shadow: 0 0 100px 10px #818181;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 30px;
+  }
+}
+
+#transaction-history {
+  margin: 5% 5% 0 5%;
+  justify-content: space-evenly;
+}
+.master-sec {
+  width: 20vw;
+  position: relative;
+  min-height: 50vw;
+  overflow: hidden;
+}
+.containt {
+  background: whitesmoke;
+  padding: 10%;
+  border-radius: 20px;
+  position: absolute;
+  width: 100%;
+}
+.mastercard-1 {
+  background: url(../images/mastercard.jpg) no-repeat;
+  background-size: contain;
+  padding: 30% 4% 40% 15%;
+  /* background-size: 15vw; */
+  overflow: hidden;
+}
+.mastercard-1 p {
+  padding: 1% 0 3% 0%;
+  font-size: 1.3vw;
+}
+.mastercard-1 h5 {
+  font-size: 1.4vw;
+}
+
+.mastercard-2 {
+  background: url(../images/mastercard.jpg) no-repeat;
+  background-size: contain;
+  padding: 30% 4% 20% 15%;
+  /* background-size: 15vw; */
+  overflow: hidden;
+}
+.mastercard-2 p {
+  padding: 1% 0 3% 0%;
+  font-size: 1.3vw;
+}
+.mastercard-2 h5 {
+  font-size: 1.4vw;
+}
+
+.transact-his {
+  width: 100%;
+}
+table {
+  margin-left: 10%;
+  background: whitesmoke;
+  width: 90%;
+  padding: 3% 3%;
+  border-radius: 20px;
+}
+td {
+  padding: 0% 0 0 7%;
+  font-size: 1vw;
+}
+th {
+  font-size: 1vw;
+}
+tr {
+  padding: 1% 10% 2% 5%;
+}

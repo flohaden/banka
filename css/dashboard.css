@@ -43,18 +43,32 @@ body {
   padding: 23% 15% 0 12%;
   height: 65%;
 }
-.mastercard {
+.mastercard-1 {
   background: url(../images/mastercard.jpg) no-repeat;
   background-size: contain;
   padding: 30% 4% 40% 15%;
   /* background-size: 15vw; */
   overflow: hidden;
 }
-.mastercard p {
+.mastercard-1 p {
   padding: 1% 0 3% 0%;
   font-size: 1.3vw;
 }
-.mastercard h5 {
+.mastercard-1 h5 {
+  font-size: 1.4vw;
+}
+.mastercard-2 {
+  background: url(../images/mastercard.jpg) no-repeat;
+  background-size: contain;
+  padding: 30% 4% 40% 15%;
+  /* background-size: 15vw; */
+  overflow: hidden;
+}
+.mastercard-2 p {
+  padding: 1% 0 3% 0%;
+  font-size: 1.3vw;
+}
+.mastercard-2 h5 {
   font-size: 1.4vw;
 }
 table {
@@ -109,6 +123,10 @@ th {
 td .transact-his {
   width: 100%;
   padding: 2% 0 0 0;
+}
+.transact-his p a {
+  color: rgba(18, 125, 203, 1);
+  padding-left: 85%;
 }
 .alert {
   padding: 0 0 0 12%;
