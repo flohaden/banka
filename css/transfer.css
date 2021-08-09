@@ -12,7 +12,7 @@ body {
 .nav {
   background: whitesmoke;
   padding: 2% 3% 1% 2%;
-  height: 100vh;
+  min-height: 100vh;
 }
 .navbar {
   flex-direction: column;
@@ -24,42 +24,51 @@ body {
 .exit {
   padding-top: 99%;
 }
-.trans {
-  margin-bottom: 3%;
-}
-.sele {
-  background: whitesmoke;
-  padding: 10px;
-  border-radius: 10px;
-}
-.mastercard {
+.form-sec {
+  width: 60%;
   padding-left: 10%;
+}
+.form {
   width: 100%;
 }
-#transaction-history {
-  margin: 3% 5% 0 5%;
-  width: 100%;
-}
-
-.transact-his {
-  width: 100%;
-}
-table {
+.form-from {
   background: whitesmoke;
-  width: 100%;
-  padding: 3% 3%;
+  margin: 7% 0 10% 0;
+  padding: 4% 5% 5% 5%;
   border-radius: 20px;
 }
-tbody td {
-  padding: 1% 0 1% 4%;
-  font-size: 1vw;
+.sele {
+  margin-top: 3%;
+  background: whitesmoke;
+  padding: 5px;
+  border-radius: 10px;
 }
-th {
-  font-size: 1.2vw;
+.form-to {
+  background: whitesmoke;
+  padding: 4% 5% 5% 5%;
+  border-radius: 20px;
 }
-
-.alert {
-  padding: 0 0 0 12%;
+.form-sec .form {
+  width: 100%;
+  padding: 20px 30px;
+}
+.form-sec .input-sec {
+  margin-bottom: 15px;
+  width: 70%;
+}
+.input-sec label {
+  width: 100%;
+  font-size: 0.75em;
+}
+.form-sec .form .btn {
+  margin: 20px 0 0 35%;
+  padding: 2% 5% 2% 5%;
+}
+h2 {
+  margin: 0 0 0 25%;
+}
+h4 {
+  margin-bottom: 3%;
 }
 @media screen and (min-width: 1001px) {
   .screen {
@@ -115,37 +124,57 @@ th {
     right: 10px;
     font-size: 30px;
   }
-  .trans {
-    margin: 10% 0 5% 0;
-    padding-left: 3%;
+
+  .form-sec {
+    width: 80%;
+    padding-left: 10%;
+  }
+  .form {
+    width: 100%;
+  }
+  .form-from {
+    background: whitesmoke;
+    margin: 7% 0 10% 0;
+    padding: 4% 5% 5% 5%;
+    border-radius: 20px;
   }
   .sele {
+    margin-top: 3%;
     background: whitesmoke;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
   }
-  .quick-action {
-    width: 90%;
-    margin: 8% 2%;
-    padding-left: 5%;
-    overflow: hidden;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-  }
-  .quick-1 {
+  .form-to {
     background: whitesmoke;
-    border-radius: 21px;
+    padding: 4% 5% 5% 5%;
+    border-radius: 20px;
   }
-  .quick-2 {
-    padding: 2% 4% 4% 2%;
+  .form-sec .form {
+    width: 100%;
+    padding: 20px 30px;
   }
-  .quick-4 {
-    padding: 3% 0 3% 0;
+  .form-sec .input-sec {
+    margin-bottom: 15px;
+    width: 70%;
   }
-  .quick-1 h2 {
-    margin-left: 5%;
-    padding: 3% 0 5% 33%;
-    font-size: 4vw;
+  .input-sec label {
+    width: 100%;
+    font-size: 0.75em;
+  }
+  .form-sec .form .btn {
+    margin: 20px 0 0 35%;
+    padding: 2% 5% 2% 5%;
+  }
+  h2 {
+    margin: 0 0 0 0%;
+  }
+  h4 {
+    margin-bottom: 3%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .form-sec {
+    width: 95%;
+    padding-left: 10%;
   }
 }

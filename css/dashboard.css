@@ -41,14 +41,17 @@ body {
   width: 100%;
   /* margin: 5%; */
   padding: 23% 15% 0 12%;
-  height: 65%;
+  max-height: 65%;
+  overflow-y: scroll;
+}
+.containt::-webkit-scrollbar {
+  display: none;
 }
 .mastercard-1 {
   background: url(../images/mastercard.jpg) no-repeat;
   background-size: contain;
   padding: 30% 4% 40% 15%;
   /* background-size: 15vw; */
-  overflow: hidden;
 }
 .mastercard-1 p {
   padding: 1% 0 3% 0%;
@@ -62,7 +65,6 @@ body {
   background-size: contain;
   padding: 30% 4% 40% 15%;
   /* background-size: 15vw; */
-  overflow: hidden;
 }
 .mastercard-2 p {
   padding: 1% 0 3% 0%;
