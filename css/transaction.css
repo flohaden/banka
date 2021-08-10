@@ -26,6 +26,9 @@ body {
 }
 .trans {
   margin-bottom: 3%;
+  background: whitesmoke;
+  padding:1.5% 0% 1.5% 6%; 
+  border-radius: 20px;
 }
 .sele {
   background: whitesmoke;
@@ -116,8 +119,10 @@ th {
     font-size: 30px;
   }
   .trans {
-    margin: 10% 0 5% 0;
+    width: 85%;
+    margin: 10% 0 5% 2%;
     padding-left: 3%;
+    display: flex;
   }
   .sele {
     background: whitesmoke;
@@ -147,5 +152,25 @@ th {
     margin-left: 5%;
     padding: 3% 0 5% 33%;
     font-size: 4vw;
+  }
+}
+@media screen and (max-width: 400px) {
+  body {
+    overflow-x: hidden;
+  }
+  .auth{
+    overflow-x: hidden;
+  }
+  .trans {
+    background: whitesmoke;
+    flex-direction: column-reverse;
+    width: 85%;
+    margin-left: 3%;
+    padding: 6% 0 10% 7%;
+    border-radius: 20px;
+  }
+  .mastercard {
+    padding: 0 0 5% 0;
+    width: 100%;
   }
 }
