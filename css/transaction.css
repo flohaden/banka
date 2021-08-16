@@ -141,6 +141,7 @@ th {
   .quick-1 {
     background: whitesmoke;
     border-radius: 21px;
+    padding: 0 5% 0 5%;
   }
   .quick-2 {
     padding: 2% 4% 4% 2%;
@@ -152,6 +153,16 @@ th {
     margin-left: 5%;
     padding: 3% 0 5% 33%;
     font-size: 4vw;
+  }
+  .ellipse {
+    width: 40px;
+    height: 40px;
+    padding-right: 5%;
+    flex-shrink: 0;
+    margin-top: 4%;
+  }
+  .quick-no {
+    padding-top: 2%;
   }
 }
 @media screen and (max-width: 400px) {
