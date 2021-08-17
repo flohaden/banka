@@ -135,7 +135,7 @@ h4 {
   .form-from {
     background: whitesmoke;
     margin: 7% 0 10% 0;
-    padding: 4% 5% 5% 5%;
+    padding: 4% 5% 5% 10%;
     border-radius: 20px;
   }
   .sele {
@@ -146,7 +146,7 @@ h4 {
   }
   .form-to {
     background: whitesmoke;
-    padding: 4% 5% 5% 5%;
+    padding: 4% 5% 5% 10%;
     border-radius: 20px;
   }
   .form-sec .form {
@@ -155,7 +155,8 @@ h4 {
   }
   .form-sec .input-sec {
     margin-bottom: 15px;
-    width: 70%;
+    width: 80%;
+    padding-left: 5%;
   }
   .input-sec label {
     width: 100%;
