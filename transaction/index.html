@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction History</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" type="text/css" href="../css/general.css">
+    <link rel="stylesheet" href="../css/transaction.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="auth flex w-full justify-between">
+        <nav class= "nav">
+            <div>
+                <img src="../images/logo4.png" alt="" style=width:50px;>
+            </div>
+            <div class="navbar flex">
+                <a href="../index.html">Home</a>
+                <a href="../transfer/index.html">Transfer money</a>
+                <a href="../transaction/index.html">Transaction history</a>
+                <a href="">Mobile Topup</a>
+                <a href="">Pay Bills</a>
+            </div>
+            <div class="exit"> 
+                <a href="../index.html">Exit</a>
+            </div>
+        </nav>
+            
+    
+
+        <div id="transaction-history">
+            <div class="trans flex">
+                <div class="mySelect" style="width:200px;">
+                    <select id="mySelectButton" class="sele">
+                       <option value="0">Select Account:</option>
+                       <option class="select-1" value="1">2080167895</option>
+                       <option value="2">2056971223</option>
+                       <option value="3">2014590012</option>
+                    </select>
+                </div>
+
+                <div class="mastercard mastercard-1">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+          
+
+            <div class="transact-his">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>ID</th>
+                            <th>Transaction type</th>
+                            <th>Amount</th>
+                            <th>Transaction Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                      
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class= "screen w-full">
+        <nav class="flex w-full justify-between">
+            <div>
+                <img src="../images/logo4.png" alt="" style=width:50px;>
+            </div>
+            <div id="mySidenav"  class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="../index.html">Home</a>
+                <a href="#">Transfer money</a>
+                <a href="#">Transaction history</a>
+                <a href="#">Mobile topup</a>
+                <a href="">Pay bills</a>
+            </div>
+            <div class="menu">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+            </div>
+        </nav>
+
+        <div id="transaction-history">
+            <div class="trans">
+                <div class="mySelect" style="width:50%;">
+                    <select id="mySelectButton" class="sele">
+                       <option value="0">Select Account:</option>
+                       <option class="select-1" value="1">2080167895</option>
+                       <option value="2">2056971223</option>
+                       <option value="3">2014590012</option>
+                    </select>
+                </div>
+
+                <div class="mastercard mastercard-1">
+                    <h3>Robert Tells</h3>
+                    <p>2000</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="quick-action">
+            <div class="quick-1">
+                <h2>History</h2>
+                <div class=" quick-2 flex justify-between">
+                    <div class=" quick-3 flex justify-between">
+                        <img class="ellipse" src="../images/Ellipse 4.png" alt="" >
+                        <div class="quick-4">
+                            <h4>Robertson Tells</h4>
+                            <p>Credit</p>
+                        </div>
+                    </div>
+                    <div class="quick-no">
+                        30300
+                    </div>
+                </div>
+                <div class=" quick-2 flex justify-between">
+                    <div class=" quick-3 flex justify-between">
+                        <img class="ellipse" src="../images/Ellipse 5.png" alt="" >
+                        <div class="quick-4">
+                            <h4>Elijah Mills</h4>
+                            <p>Debit</p>
+                        </div>
+                    </div>
+                    <div class="quick-no">
+                        1100
+                    </div>
+                </div>
+                <div class=" quick-2 flex justify-between">
+                    <div class=" quick-3 flex justify-between">
+                        <img class="ellipse" src="../images/Ellipse 4.png" alt="" >
+                        <div class="quick-4">
+                            <h4>Union Plc</h4>
+                            <p>Debit</p>
+                        </div>
+                    </div>
+                    <div class="quick-no">
+                        11200
+                    </div>
+                </div>
+                <div class=" quick-2 flex justify-between">
+                    <div class=" quick-3 flex justify-between">
+                        <img class="ellipse" src="../images/Ellipse 5.png" alt="" >
+                        <div class="quick-4">
+                            <h4>Matthew Seun</h4>
+                            <p>Debit</p>
+                        </div>
+                    </div>
+                    <div class="quick-no">
+                        23300
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="../javascript/transaction.js"></script>
+</body>
+</html>

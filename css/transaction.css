@@ -1,0 +1,190 @@
+.auth {
+  height: 100vh;
+  /* width: 100vw; */
+}
+
+body {
+  background: #eee;
+  /* background: rgba(18, 125, 203, 1); */
+  overflow-x: hidden;
+}
+
+.nav {
+  background: whitesmoke;
+  padding: 2% 3% 1% 2%;
+  height: 100vh;
+}
+.navbar {
+  flex-direction: column;
+  padding: 4% 0 3% 0;
+}
+.navbar a {
+  padding-top: 10%;
+}
+.exit {
+  padding-top: 99%;
+}
+.trans {
+  margin-bottom: 3%;
+  background: whitesmoke;
+  padding: 1.5% 0% 1.5% 6%;
+  border-radius: 20px;
+}
+.sele {
+  background: whitesmoke;
+  padding: 10px;
+  border-radius: 10px;
+}
+.mastercard {
+  padding-left: 10%;
+  width: 100%;
+}
+#transaction-history {
+  margin: 3% 5% 0 5%;
+  width: 100%;
+}
+
+.transact-his {
+  width: 100%;
+}
+table {
+  background: whitesmoke;
+  width: 100%;
+  padding: 3% 3%;
+  border-radius: 20px;
+}
+tbody td {
+  padding: 1% 0 1% 2%;
+  font-size: 1vw;
+}
+th {
+  font-size: 1.2vw;
+}
+
+.alert {
+  padding: 0 0 0 12%;
+}
+@media screen and (min-width: 1001px) {
+  .screen {
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .body {
+    overflow-x: hidden;
+  }
+  .auth {
+    display: none;
+  }
+  nav {
+    background: rgba(190, 206, 218, 1);
+    margin-top: 0;
+    padding: 1% 2%;
+    overflow: hidden;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 20px;
+    margin-right: 10px;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgba(190, 206, 218, 1);
+    box-shadow: 0 0 100px 10px #818181;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 30px;
+  }
+  .trans {
+    width: 85%;
+    margin: 10% 0 5% 2%;
+    padding-left: 3%;
+    display: flex;
+  }
+  .sele {
+    background: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .quick-action {
+    width: 90%;
+    margin: 8% 2%;
+    padding-left: 5%;
+    overflow: hidden;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  .quick-1 {
+    background: whitesmoke;
+    border-radius: 21px;
+    padding: 0 5% 0 5%;
+  }
+  .quick-2 {
+    padding: 2% 4% 4% 2%;
+  }
+  .quick-4 {
+    padding: 3% 0 3% 0;
+  }
+  .quick-1 h2 {
+    margin-left: 5%;
+    padding: 3% 0 5% 33%;
+    font-size: 4vw;
+  }
+  .ellipse {
+    width: 40px;
+    height: 40px;
+    padding-right: 5%;
+    flex-shrink: 0;
+    margin-top: 4%;
+  }
+  .quick-no {
+    padding-top: 2%;
+  }
+}
+@media screen and (max-width: 400px) {
+  body {
+    overflow-x: hidden;
+  }
+  .screen {
+    overflow-x: hidden;
+  }
+  .auth {
+    overflow-x: hidden;
+  }
+  .trans {
+    background: whitesmoke;
+    flex-direction: column-reverse;
+    width: 85%;
+    margin-left: 3%;
+    padding: 6% 0 10% 7%;
+    border-radius: 20px;
+  }
+  .mastercard {
+    padding: 0 0 5% 0;
+    width: 100%;
+  }
+}

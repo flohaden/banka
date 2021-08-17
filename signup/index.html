@@ -8,52 +8,54 @@
 	<title>Banka</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="./css/general.css">
-	<link rel="stylesheet" type="text/css" href="./css/login-signup.css">
+	<link rel="stylesheet" type="text/css" href="../css/general.css">
+	<link rel="stylesheet" type="text/css" href="../css/login-signup.css">
 </head>
 
 <body>
 	<div class="auth flex-center w-full">
 		<nav class="w-full">
 			<div class="container">
-				<img src="./images/logo4.png" style=width:50px;></a>
+				<img src="../images/logo4.png" style=width:50px;></a>
 			</div>
 		</nav>
 
 		<div class="form-sec flex">
 			<div class="form flex flex-col justify-between">
 
-				<h1>Login</h1>
+				<h1>Sign Up</h1>
 
 				<form class="sign w-full">
 					<div class="input-sec">
-						<label for="">Username:</label>
+						<label for="">Full Name:</label>
 						<input type="text" name="text" class="input-type">
 					</div>
 
 					<div class="input-sec">
-						<label for=""> Password:</label>
-						<input type="password" name="password" class="input-type" id="myInput">
+						<label for="">Email:</label>
+						<input type="text" name="text" class="input-type">
 					</div>
 
-					<div class="remember flex">
-						<strong><a href="" class="primary-color">Forgot password?</a></strong>
+					<div class="input-sec">
+						<label for="">Phone number:</label>
+						<input type="textnum" name="password" class="input-type">
+					</div>
+
+					<div class="input-sec">
+						<label for=""> Password:</label>
+						<input type="textnum" name="password" class="input-type">
 					</div>
 
 					<button class="btn">
-						Login
+						Create account
 					</button>
 				</form>
-
-				<p class="acct" style=font-size:12px;>Don't have an account yet? Click <a href="signup.html"
-						style=text-decoration:none;color:blue;>here</a> to create an account</p>
-
-
+				<p>Already have an account? <a style=color:blue; href="../login/index.html">Sign in</a></p>
 			</div>
 
 			<div class="welcome h-full flex flex-col">
-				<h1 class="text">Welcome to Banka!</h1>
-				<p class="text">The bank of the free!</p>
+				<h1 class="text">Create Your Wealth!</h1>
+				<p class="text">Get started with Banka.</p>
 			</div>
 		</div>
 

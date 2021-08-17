@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfer money</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" type="text/css" href="../css/general.css">
+    <link rel="stylesheet" href="../css/transfer.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="auth flex w-full">
+        <nav class= "nav h-full">
+            <div>
+                <img src="../images/logo4.png" alt="" style=width:50px;>
+            </div>
+            <div class="navbar flex">
+                <a href="../index.html">Home</a>
+                <a href="">Transfer money</a>
+                <a href="../transaction/index.html">Transaction history</a>
+                <a href="">Mobile Topup</a>
+                <a href="">Pay Bills</a>
+            </div>
+            <div class="exit"> 
+                <a href="../index.html">Exit</a>
+            </div>
+        </nav>
+
+        <div class="form-sec">
+			<div class="form">
+
+				<h2>Transfer money</h2>
+
+				<form class="form-input">
+					<div class="form-from">
+						<h4>From:</h4>
+                        <h3>Robertson Tells</h3>
+						<select name="" id="" class="sele">
+                            <option value="0">Select Account:</option>
+                            <option value="1">2080167895</option>
+                            <option value="2">2056971223</option>
+                            <option value="3">2014590012</option>
+                        </select>
+					</div>
+
+					<div class="form-to">
+						<h4>To:</h4>
+                        <div class="input-sec">
+                            <label for="">Account no:</label>
+						    <input type="text" class="input-type" id="myInput">
+                        </div>
+                        <div class="input-sec">
+                            <label for="">Select Bank:</label>
+                            <select name="" id="" class="input-type">
+                                <option value=""></option>
+                                <option value="">Banka</option>
+                                <option value="">Access Bank</option>
+                                <option value="">Fidelity Bank</option>
+                                <option value="">First Bank</option>
+                                <option value="">GTBank</option>
+                                <option value="">Heritage Bank</option>
+                                <option value="">Polaris Bank</option>
+                                <option value="">StandardChartered</option>
+                                <option value="">Sterling Bank</option>
+                            </select>
+                        </div>
+                        <div class="input-sec">
+                            <label for="">Amount:</label>
+                            <input type="text" class="input-type">
+                        </div>
+                        <div class="input-sec">
+                            <label for="">Description:</label>
+                            <input type="text" class="input-type">
+                        </div>
+					</div>
+
+					<button class="btn">
+						Transfer
+					</button>
+				</form>
+            </div>
+        </div>
+  </div>  
+  <div class= "screen">
+        <nav class="flex w-full justify-between">
+            <div>
+                <img src="../images/logo4.png" alt="" style=width:50px;>
+            </div>
+            <div id="mySidenav"  class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="../index.html">Home</a>
+                <a href="#">Transfer money</a>
+                <a href="#">Transaction history</a>
+                <a href="#">Mobile topup</a>
+                <a href="">Pay bills</a>
+            </div>
+            <div class="menu">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+            </div>
+        </nav>
+
+        <div class="form-sec">
+			<div class="form">
+
+				<h2>Transfer money</h2>
+
+				<form class="form-input">
+					<div class="form-from">
+						<h4>From:</h4>
+                        <h3>Robertson Tells</h3>
+						<select name="" id="" class="sele">
+                            <option value="0">Select Account:</option>
+                            <option value="1">2080167895</option>
+                            <option value="2">2056971223</option>
+                            <option value="3">2014590012</option>
+                        </select>
+					</div>
+
+					<div class="form-to">
+						<h4>To:</h4>
+                        <div class="input-sec">
+                            <label for="">Account no:</label>
+						    <input type="text" class="input-type" id="myInput">
+                        </div>
+                        <div class="input-sec">
+                            <label for="">Select Bank:</label>
+                            <select name="" id="" class="input-type">
+                                <option value=""></option>
+                                <option value="">Banka</option>
+                                <option value="">Access Bank</option>
+                                <option value="">Fidelity Bank</option>
+                                <option value="">First Bank</option>
+                                <option value="">GTBank</option>
+                                <option value="">Heritage Bank</option>
+                                <option value="">Polaris Bank</option>
+                                <option value="">StandardChartered</option>
+                                <option value="">Sterling Bank</option>
+                            </select>
+                        </div>
+                        <div class="input-sec">
+                            <label for="">Amount:</label>
+                            <input type="text" class="input-type">
+                        </div>
+                        <div class="input-sec">
+                            <label for="">Description:</label>
+                            <input type="text" class="input-type">
+                        </div>
+					</div>
+
+					<button class="btn">
+						Transfer
+					</button>
+				</form>
+            </div>
+        </div>
+  </div>
+  <script src="../javascript/transaction.js"></script>
+</body>
+</html>
